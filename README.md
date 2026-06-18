@@ -1,4 +1,3 @@
-# boltz-antibody-antigen-complex-prediction
 
 # Antibody–Antigen Complex Prediction with Boltz-2
 
