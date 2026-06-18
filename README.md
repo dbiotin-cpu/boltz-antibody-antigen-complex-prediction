@@ -5,15 +5,13 @@ Prediction and evaluation of PD-L1–atezolizumab complexes using Boltz-2. CDRH3
 
 ## Workflow
 
-Known therapeutic antibody (atezolizumab)
-↓
-CDRH3 redesign using ESM3
-↓
-Complex structure prediction using Boltz-2
-↓
-Comparison of interface confidence scores
-↓
-Ranking of candidate variants
+| Step | Method | Output |
+|--------|--------|--------|
+| 1 | Extract sequences from PDB 5X8L | PD-L1, HC, LC |
+| 2 | ESM3 sequence generation | Novel CDRH3 variants |
+| 3 | Boltz-2 structure prediction | Antibody–antigen complexes |
+| 4 | Confidence analysis | ipTM, pTM, pLDDT |
+| 5 | Candidate ranking | Top redesigned variants |
 
 ## Wild-Type Complex Prediction
 
