@@ -13,11 +13,13 @@ Prediction and evaluation of PD-L1–atezolizumab complexes using Boltz-2. CDRH3
 | 4 | Confidence analysis | ipTM, pTM, pLDDT |
 | 5 | Candidate ranking | Top redesigned variants |
 
-## Wild-Type Complex Prediction
-
-PD-L1 and atezolizumab heavy/light chains were extracted from PDB 5X8L and used as input for Boltz-2.
+## Wild-Type PD-L1–Atezolizumab Complex
 
 ![WT Complex](images/wt_complex.png)
+
+The wild-type therapeutic antibody exhibited a high-confidence interaction with PD-L1 (ipTM = 0.827).
+
+---
 
 ## Prediction Results
 
@@ -30,19 +32,15 @@ PD-L1 and atezolizumab heavy/light chains were extracted from PDB 5X8L and used 
 
 Variant 3 retained 98.3% of the wild-type interface confidence while introducing substantial sequence diversity within the CDRH3 loop.
 
-## Top Variant
+## Top ESM3-Generated Variant
 
-CDRH3:
+CDRH3 sequence:
+
 GGYYYGFDY
 
-Boltz-2 metrics:
+![Variant 3 Complex](images/variant3_complex.png)
 
-- Confidence Score: 0.928
-- pTM: 0.841
-- ipTM: 0.813
-- Complex pLDDT: 0.957
-
-This variant maintained interface confidence comparable to the therapeutic parent antibody while introducing a redesigned CDRH3 sequence.
+The top redesigned CDRH3 variant retained 98.3% of the wild-type interface confidence (ipTM = 0.813), suggesting preservation of the overall binding architecture.
 
 ## Key Takeaways
 
